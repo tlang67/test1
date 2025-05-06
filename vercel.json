@@ -4,7 +4,7 @@
       "source": "/(.*)",
       "headers": [
         { "key": "X-Frame-Options", "value": "ALLOWALL" },
-        { "key": "Content-Security-Policy", "value": "frame-ancestors 'self' https: http:" },
+        { "key": "Content-Security-Policy", "value": "default-src 'self'; frame-ancestors 'self' * https: http:;" },
         { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
     }
