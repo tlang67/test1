@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
-          Coupi <span className="heart">♥️</span> can help you
+          Coupi - 2-way matched and yet still adorable <span className="heart">♥️</span>
         </p>
 
       </header>
